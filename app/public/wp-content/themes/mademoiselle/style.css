@@ -1,0 +1,65 @@
+/*
+Theme Name: Mademoiselle
+Author: Lana Vrebac
+Author URI: https://cubes.rs
+Description: WordPress Themes for Beauty and Hair
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lawyer
+Tags: responsive, bootstrap 4, mademoiselle, multipage
+*/
+
+.logged-in header{
+    margin-top: 32px;
+}
+
+.lead-page-blog-item-link{
+    text-decoration: none;
+    font-size:1.6rem;
+    color:#1E1E1E;
+   
+}
+.lead-page-blog-item-date{
+ font-style: italic;
+ font-size:1.4rem;
+}
+@media(min-width:768px){
+.services-item:nth-of-type(2n) .order-first{
+order:10 !important;
+}
+}
+
+.news-pagination-full .page-links{
+    display: flex;
+}
+.news-pagination-full{
+    text-align: center;
+    color:#000;
+    font-style: italic;
+}
+.widget ul{
+    list-style: none;
+}
+.widget.widget_blog_widget{
+    list-style: none;
+}
+
+.wp-block-search__button{
+   background-color: #fff;
+   color:#000;
+   border:none;
+}
+.wp-block-search__label{
+    display:none;
+    text-decoration: none;
+    margin-left: 0;
+}
+
+.widget .searchform #s{
+    border:1px solid #000;
+   
+}
+.widget li #block-7{
+    text-decoration: none;
+}
